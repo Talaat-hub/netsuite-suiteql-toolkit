@@ -1,0 +1,15 @@
+<restlet scriptid="customscript_rl_mt_sql_api">
+  <name>RL MT SuiteQL API</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/SuiteQL_Dashboard/rl_mt_suiteql_api.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_rl_mt_sql_api">
+      <allroles>T</allroles>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>RL MT SuiteQL API</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

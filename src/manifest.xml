@@ -1,0 +1,18 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>netsuite-suiteql-toolkit</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+    </features>
+    <objects>
+      <object>customrecord_emp_mahmoud</object>
+    </objects>
+    <files>
+      <file>/SuiteScripts/SuiteQL_Dashboard/rl_mt_suiteql_api.js</file>
+      <file>/SuiteScripts/SuiteQL_Dashboard/sl_mt_suiteql_dash.js</file>
+      <file>/SuiteScripts/SuiteQL_Dashboard/suiteql_config.js</file>
+      <file>/SuiteScripts/EMP_Analytics/suitelet/sl_mt_emp_suiteql.js</file>
+    </files>
+  </dependencies>
+</manifest>

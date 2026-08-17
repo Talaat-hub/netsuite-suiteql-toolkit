@@ -1,0 +1,16 @@
+<suitelet scriptid="customscript_sl_mt_sql_dash">
+  <name>SL MT SuiteQL Dashboard</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/SuiteQL_Dashboard/sl_mt_suiteql_dash.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_sl_mt_sql_dash">
+      <allroles>T</allroles>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>SL MT SuiteQL Dashboard</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

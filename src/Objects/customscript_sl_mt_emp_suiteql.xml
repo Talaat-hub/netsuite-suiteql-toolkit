@@ -1,0 +1,14 @@
+<suitelet scriptid="customscript_sl_mt_emp_suiteql">
+  <name>SL MT Employee SuiteQL Explorer</name>
+  <notifyowner>F</notifyowner>
+  <scriptfile>[/SuiteScripts/EMP_Analytics/suitelet/sl_mt_emp_suiteql.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_sl_mt_emp_suiteql">
+      <allroles>T</allroles>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>SL MT Employee SuiteQL Explorer</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>

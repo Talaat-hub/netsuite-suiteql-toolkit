@@ -1,0 +1,13 @@
+{
+  "name": "netsuite-suiteql-toolkit",
+  "version": "1.0.0",
+  "description": "A SuiteQL query engine for NetSuite: a whitelisted, injection-guarded RESTlet API, a browser-based SQL dashboard Suitelet, and an applied SuiteQL 'Employee Explorer' example. Includes a full Jest unit-testing harness and a comprehensive SuiteQL reference guide.",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "@types/jest": "29.5.14",
+    "@oracle/suitecloud-unit-testing": "^1.7.0"
+  }
+}
